@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background-color: #000;
+    color: #fff;
+    line-height: 1.6;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #111;
+    border-bottom: 1px solid #444;
+  }
+  .logo{
+    background-image:url(/daniele.png);
+    -webkit-mask-image: linear-gradient(to right, transparent 0%, black 20%, black 80%, transparent 100%);
+      mask-image: linear-gradient(to right, transparent 0%, black 20%, black 80%, transparent 100%);
+  }
+  .logo img
+  {
+    height: 50px;
+    width: auto;
+  }
+  
+  header h1 {
+    font-size: 24px;
+    color: #0f0;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  nav a:hover {
+    color: #0f0;
+  }
+  
+  .hero {
+    height: 100vh;
+    text-align: center;
+    padding: 100px 20px;
+    background-image:url(/daniele.png); /* puoi cambiarla */
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  
+  .hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .cta {
+    padding: 12px 25px;
+    background-color: #0f0;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background 0.3s;
+  }
+  
+  .cta:hover {
+    background-color: #cfc;
+  }
+  body{
+    background-color: #0b0b0b;
+
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #111;
+    font-size: 14px;
+    color: #aaa;
+  }
+  

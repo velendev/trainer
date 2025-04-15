@@ -1,0 +1,44 @@
+
+section .hero{
+    height: 100%;
+    width: auto;
+}
+
+  .cards-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 40px;
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto; ;
+  }
+  .card {
+    background-color: #111;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    transition: transform 0.3s;
+    height: auto;
+    width: 250px; 
+  }
+  .card img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 15px;
+  }
+  
+  .card h2 {
+    color: #0f0;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    font-size: 14px;
+    color: #ccc;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
